@@ -41,11 +41,10 @@
                     <nav class="navigation-menu">
                         <a href="{{ route('welcome') }}">Formations</a>
                         <a href="{{ route('our_services') }}">Nos services</a>
-                        <a href="#">A propos</a>
-                        <a href="#">Contact</a>
+
                         <!-- Authentication Links -->
                         @guest
-                        <a class="btnLog" href="{{ route('login') }}">{{ __('Se connecter') }}<i
+                        <a class="btnLog" style="color: #ddd;" href="{{ route('login') }}">{{ __('Se connecter') }}<i
                                 class="fas fa fa-sign-in-alt works ml-sm-2"></i></a>
                         @else
                         <a id="navbarDropdown" class="btnLog" href="#" role="button" data-toggle="dropdown"
@@ -66,16 +65,71 @@
                     </nav>
                 </div>
             </header>
-            <main class="py-0">
+            <main class="py-0" style="background-color: #fff">
                 @yield('content')
             </main>
         </div>
-        <div class="row py-5">
-            <div class="col-md-6 offset-md-3 mt-3">
-                <button type="button" class="btnGreen btn-block" style="font-size: 1rem;">Mon pannel
-                    admin<i class="fas fa-smile-wink ml-sm-2"></i></button>
+
+        <div class="testimonial-section">
+            <div class="inner-widthE">
+                <h1>Quelsues mots</h1>
+                <div class="testimonial-pics">
+                    <img src=".img/profile/p1.png" alt="test-1" class="active">
+                    <img src=".img/profile/p2.png" alt="test-2">
+                    <img src=".img/profile/p3.png" alt="test-3">
+                    <img src=".img/profile/p4.png" alt="test-4">
+                </div>
+
+                <div class="testimonial-contents">
+                    <div class="testimonial active" id="test-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur et adipisci ut,
+                            impedit
+                            cumque, similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis
+                            labore,
+                            modi natus officiis asperiores!</p>
+                        <span class="description">Emy / Developer</span>
+                    </div>
+
+                    <div class="testimonial" id="test-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elimet, consectetur adipisicing eli t. Ab
+                            consequatur et adipisci ut, impedit cumque, similique, eum tenetur, numquam eligendi
+                            aliquid. Nulla
+                            sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
+                        <span class="description">Carla / Developer</span>
+                    </div>
+
+                    <div class="testimonial" id="test-3">
+                        <p>Lorem similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis
+                            labore, modi
+                            natus officiis asperiores!</p>
+                        <span class="description">Thomas / Developer</span>
+                    </div>
+
+                    <div class="testimonial" id="test-4">
+                        <p>Lorem ipsum dolorng elit. Ab consequatur et adipisci ut, impedit cumque, similique, eum
+                            tenetur,
+                            numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis
+                            asperiores!</p>
+                        <span class="description">Monica / Developer</span>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div class="row" style="background-color:#fff;">
+            <div class="col-12 col-md-6">
+                <div class="container py-5">
+                    <h3 class="display-4 ml-5" style="font-weight: 560; color:#0fbcf9;">Des tutoriels faits pour vous <i class="fas fa-angle-double-right ml-2"></i></h3>
+                </div>
+            </div>
+            <div class="col-12 col-md-6" style="background-color: #0fbcf9; height:160px; border-radius:100px 0 0 100px;">
+                <div class="col-md-6 offset-md-3 py-5">
+                    <button type="button" class="btnGreen btn-block" style="font-size: 1rem;" data-toggle="modal" data-target="#staticBackdrop">Contactez moi<i class="fas fa-smile-wink ml-sm-2"></i></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="py-3" style="background-color: #fff;"></div>
         <!-- Footer -->
         <footer class="site-footer">
             <div class="container">
@@ -216,6 +270,16 @@
                     $('html ,body').animate({
                         scrollTop: 0
                     }, 800);
+                });
+            });
+            /* Our etudiants */
+            $(document).ready(function () {
+                $('.testimonial-pics img').click(function () {
+                    $(".testimonial-pics img").removeClass("active");
+                    $(this).addClass("active");
+
+                    $(".testimonial").removeClass("active");
+                    $("#" + $(this).attr("alt")).addClass("active");
                 });
             });
         </script>
