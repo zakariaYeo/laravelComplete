@@ -5,7 +5,8 @@
 ">
     <div class="text-center" style="color:#ddd; padding:60px;">
         <h1 class="display-1">11InCercle</h1>
-        <p class="lead text-center">Apprenez à coder très très facilement et à votre rythme.</p>
+        <h3 class="lead display-4">Apprenez à coder très très facilement et à votre rythme.</h3>
+        <br/>
         <p class="text-center">
             <button type="button" class="btn btn-lg btn btn-outline-light" href="#">Choisir une formation <i
                     class="fas fa-mouse ml-sm-2"></i></button>

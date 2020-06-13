@@ -19,10 +19,11 @@
         <link href="https://fonts.googleapis.com/css?family=montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
         <!-- Styles -->
-        <link href="{{ asset('css/app1.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
         <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     </head>
@@ -44,10 +45,11 @@
                         <a href="#">Contact</a>
                         <!-- Authentication Links -->
                         @guest
-                        <a class="btnLog" href="{{ route('login') }}">{{ __('Se connecter') }}<i class="fas fa fa-sign-in-alt works ml-sm-2"></i></a>
+                        <a class="btnLog" href="{{ route('login') }}">{{ __('Se connecter') }}<i
+                                class="fas fa fa-sign-in-alt works ml-sm-2"></i></a>
                         @else
-                        <a id="navbarDropdown" class="btnLog" href="#" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        <a id="navbarDropdown" class="btnLog" href="#" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -70,7 +72,7 @@
         </div>
         <div class="row py-5">
             <div class="col-md-6 offset-md-3 mt-3">
-                <button type="button" class="btnGreen" style="font-size: 1rem; ">Mon pannel
+                <button type="button" class="btnGreen btn-block" style="font-size: 1rem;">Mon pannel
                     admin<i class="fas fa-smile-wink ml-sm-2"></i></button>
             </div>
         </div>
@@ -87,7 +89,7 @@
                             boîte mail</p>
                         <div class="newsletter">
                             <form action="" class="newsletter-form">
-                                <input type="email" class="emailInput" placeholder="Votre adresse Email">
+                                <input type="email" class="emailInput" placeholder="Email">
                                 <input type="submit" class="btnN" value="Envoyer">
                             </form>
                         </div>
@@ -120,7 +122,7 @@
                                         <div class="modal-body">
                                             <span class="login100-form-avatar">
                                                 <img src="./img/YMZ.png" class="rounded-circle mx-auto d-block"
-                                                style="width: 5rem;" alt="mes projets">
+                                                    style="width: 5rem;" alt="mes projets">
                                             </span>
                                             <div class="py-2"></div>
                                             <h1 class="section-title"><strong
@@ -133,7 +135,8 @@
                                                     Riviéra 3 Nouveau Camp,Cocody<br />
                                                     Abidjan Côte d'Ivoire<br />
                                                     (+225) 59 20 11 58<br />
-                                                    <a href="#"><i class="fas fa-envelope"></i>Envoyer un courriel</a>
+                                                    <a href="#"><i class="fas fa-envelope team mr-sm-1"></i>Envoyer un
+                                                        courriel</a>
                                                 </p>
                                                 <p>
                                                     <strong>Pour toute information</strong><br />
@@ -217,6 +220,15 @@
             });
         </script>
         <script type="text/javascript" src="./js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
     </body>
 
 </html>
