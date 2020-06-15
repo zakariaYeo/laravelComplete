@@ -39,8 +39,8 @@
                     <i class=" menu-toggle-btn fas fa-bars"></i>
                     </button>
                     <nav class="navigation-menu">
-                        <a href="{{ route('welcome') }}">Formations</a>
-                        <a href="{{ route('our_services') }}">Nos services</a>
+                        <a class="activeN" href="{{ route('welcome') }}">Formations</a>
+                        <a href="{{ route('our_services') }}">Cours</a>
 
                         <!-- Authentication Links -->
                         @guest

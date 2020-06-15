@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title','Mes projets')
 @section('content')
-<div class="container py-4">
+{{-- <div class="container py-4">
     <div class="page-header">
         <h1 class="text-center display-5 text-muted"><i class="fas fa-book mr-sm-2"></i>Mes projets</h1>
     </div>
@@ -102,6 +102,34 @@
                 </div>
             </div>
         </div>
+    </div>
+</div> --}}
+<div class="row">
+    <div class="col-12 col-md-6">
+        <p class="display-3 ml-5 py-5" style="font-weight:900; color:#0fbcf9;">Vous êtes intéressez par ???</p>
+        <hr>
+        <p class="h4 ml-6">Formez-vous gratuitement avec des teachers compétents prêts à vous aider <i
+                class="fas fa-smile-wink" style="color: #0fbcf9;"></i></p>
+        <hr>
+    </div>
+    <div class="col-12 col-md-6"
+        style="background: url('./img/formations/formations/_1.jpg') no-repeat; height: 400px; width:100%; background-repeat:
+                no-repeat; background-size: cover; background-position: center center; overflow: hidden; clip-path : polygon(0 0,100% 0,100% 100%,0 85%);">
+
+    </div>
+</div>
+<div class="row" style="background:#0fbcf9;">
+    <div class="col-12 col-md-3">
+        <p style="font-size:15px; font-weight:800">Vous êtes intéressez par ???</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
     </div>
 </div>
 
