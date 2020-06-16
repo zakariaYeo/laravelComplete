@@ -39,7 +39,7 @@
                     <i class=" menu-toggle-btn fas fa-bars"></i>
                     </button>
                     <nav class="navigation-menu">
-                        <a class="activeN" href="{{ route('welcome') }}">Formations</a>
+                        <a class="activeN" href="{{ route('welcome') }}">Formateurs</a>
                         <a href="{{ route('our_services') }}">Cours</a>
 
                         <!-- Authentication Links -->
@@ -72,12 +72,12 @@
 
         <div class="testimonial-section">
             <div class="inner-widthE">
-                <h1>Quelsues mots</h1>
+                <h1>Quelques mots</h1>
                 <div class="testimonial-pics">
-                    <img src=".img/profile/p1.png" alt="test-1" class="active">
-                    <img src=".img/profile/p2.png" alt="test-2">
-                    <img src=".img/profile/p3.png" alt="test-3">
-                    <img src=".img/profile/p4.png" alt="test-4">
+                    <img src="img/profile/YMZ.png" alt="test-1" class="active">
+                    <img src="img/profile/YMZ.png" alt="test-2">
+                    <img src="img/profile/YMZ.png" alt="test-3">
+                    <img src="img/profile/YMZ.png" alt="test-4">
                 </div>
 
                 <div class="testimonial-contents">
@@ -87,7 +87,7 @@
                             cumque, similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis
                             labore,
                             modi natus officiis asperiores!</p>
-                        <span class="description">Emy / Developer</span>
+                        <span class="description">Zakaria / Developpeur</span>
                     </div>
 
                     <div class="testimonial" id="test-2">
@@ -95,14 +95,14 @@
                             consequatur et adipisci ut, impedit cumque, similique, eum tenetur, numquam eligendi
                             aliquid. Nulla
                             sit, cupiditate corporis labore, modi natus officiis asperiores!</p>
-                        <span class="description">Carla / Developer</span>
+                        <span class="description">Achille / Developpeur</span>
                     </div>
 
                     <div class="testimonial" id="test-3">
                         <p>Lorem similique, eum tenetur, numquam eligendi aliquid. Nulla sit, cupiditate corporis
                             labore, modi
                             natus officiis asperiores!</p>
-                        <span class="description">Thomas / Developer</span>
+                        <span class="description">Thomas / Developpeur</span>
                     </div>
 
                     <div class="testimonial" id="test-4">
@@ -110,7 +110,7 @@
                             tenetur,
                             numquam eligendi aliquid. Nulla sit, cupiditate corporis labore, modi natus officiis
                             asperiores!</p>
-                        <span class="description">Monica / Developer</span>
+                        <span class="description">Paul / Developpeur</span>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,8 @@
                     <h3 class="display-4 ml-5" style="font-weight: 560; color:#0fbcf9;">Des tutoriels faits pour vous <i class="fas fa-angle-double-right ml-2"></i></h3>
                 </div>
             </div>
-            <div class="col-12 col-md-6" style="background-color: #0fbcf9; height:160px; border-radius:100px 0 0 100px;">
+            <div class="col-12 col-md-6"
+                style="background-color: #0fbcf9; height:160px; border-radius:100px 0 0 100px;">
                 <div class="col-md-6 offset-md-3 py-5">
                     <button type="button" class="btnGreen btn-block" style="font-size: 1rem;" data-toggle="modal" data-target="#staticBackdrop">Contactez moi<i class="fas fa-smile-wink ml-sm-2"></i></button>
                 </div>

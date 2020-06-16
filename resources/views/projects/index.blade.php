@@ -106,32 +106,70 @@
 </div> --}}
 <div class="row">
     <div class="col-12 col-md-6">
-        <p class="display-3 ml-5 py-5" style="font-weight:900; color:#0fbcf9;">Vous êtes intéressez par ???</p>
-        <hr>
-        <p class="h4 ml-6">Formez-vous gratuitement avec des teachers compétents prêts à vous aider <i
-                class="fas fa-smile-wink" style="color: #0fbcf9;"></i></p>
-        <hr>
+        <div class="container">
+            <p class="display-3 py-5" style="font-weight:900; color:#0fbcf9;">Vous êtes intéressé par ???</p>
+            <hr>
+
+            <p class="h4" style="font-weight: 350">Formez-vous gratuitement avec des teachers compétents prêts à vous
+                aider <i class="fas fa-smile-wink" style="color: #0fbcf9;"></i></p>
+            <hr>
+        </div>
     </div>
     <div class="col-12 col-md-6"
         style="background: url('./img/formations/formations/_1.jpg') no-repeat; height: 400px; width:100%; background-repeat:
                 no-repeat; background-size: cover; background-position: center center; overflow: hidden; clip-path : polygon(0 0,100% 0,100% 100%,0 85%);">
-
     </div>
 </div>
-<div class="row" style="background:#0fbcf9;">
-    <div class="col-12 col-md-3">
-        <p style="font-size:15px; font-weight:800">Vous êtes intéressez par ???</p>
-    </div>
-    <div class="col-12 col-md-3">
-        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
-    </div>
-    <div class="col-12 col-md-3">
-        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
-    </div>
-    <div class="col-12 col-md-3">
-        <p style="font-size:15px;font-weight:800">Vous êtes intéressez par ???</p>
+<div class="row" style="background:#0fbcf9; color:#fff;height:120px;">
+    <div class="col-12 py-5">
+        <div class="col-md-6 offset-md-3">
+            <p style="font-size:15px; font-weight:800">Vous êtes intéressé par ???</p>
+        </div>
     </div>
 </div>
-
-
+<div class="container py-1">
+    <p style="font-size: 30px; font-weight:700;">Dans quel domaine souhaitez-vous vous former ?</p>
+    <button class="btnF">Développeur Backend</button><br>
+    <button class="btnF">Développement frontend</button>
+    <hr>
+</div>
+<div class="containerT">
+    <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/html&css.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Apprenez à créer votre site web avec HTML et CSS
+            </li>
+            <div class="borderT"></div>
+            <li>
+                <p class="text-muted text-center">Débutez avec ce cours qui vous apprendra comment créer des sites web
+                    avec le HTML et le CSS</p>
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
+    </div>
+  <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/html&css.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Apprenez à créer votre site web avec HTML et CSS
+            </li>
+            <div class="borderT"></div>
+            <li>
+                <p class="text-muted text-center">Débutez avec ce cours qui vous apprendra comment créer des sites web
+                    avec le HTML et le CSS</p>
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em" height="1.3em"></i>Commencez</a>
+    </div>
+</div>
 @endsection
