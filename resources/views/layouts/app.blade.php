@@ -163,11 +163,10 @@
                     </div>
 
                     <div class="col-xs-6 col-md-3">
-                        <h6>Me contacter</h6>
+                        <h6>Autres</h6>
                         <div class="py-1"></div>
                         <ul class="footer-links">
                             <li><a href="{{ route('about') }}">Fondateur</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#staticBackdrop">Contact</a></li>
                             <!-- Modal -->
                             <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
                                 tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true"

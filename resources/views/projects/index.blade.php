@@ -121,15 +121,13 @@
     </div>
 </div>
 <div class="row" style="background:#0fbcf9; color:#fff;height:120px;">
-    <div class="col-12 py-5">
-        <div class="col-md-6 offset-md-3">
-            <p style="font-size:15px; font-weight:800">Vous êtes intéressé par ???</p>
-        </div>
+    <div class="col-md-6 offset-md-3 py-5">
+        <p style="font-size:15px; font-weight:800">Vous êtes intéressé par ???</p>
     </div>
 </div>
 <div class="container py-1">
     <p style="font-size: 30px; font-weight:700;">Dans quel domaine souhaitez-vous vous former ?</p>
-    <button class="btnF">Développeur Backend</button><br>
+    <button class="btnF">Développement Backend</button><br>
     <button class="btnF">Développement frontend</button>
     <hr>
 </div>
@@ -144,32 +142,82 @@
             <div class="borderT"></div>
             <li class="text-muted-bold">Apprenez à créer votre site web avec HTML et CSS
             </li>
-            <div class="borderT"></div>
-            <li>
-                <p class="text-muted text-center">Débutez avec ce cours qui vous apprendra comment créer des sites web
-                    avec le HTML et le CSS</p>
-            </li>
         </ul>
         <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
                 height="1.3em"></i>Commencez</a>
     </div>
-  <div class="pricing-table table1">
+    <div class="pricing-table table1">
         <div class="pricing-header"
-            style="background: url('./img/formations/formations/html&css.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+            style="background: url('./img/formations/formations/javascript.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
         </div>
         <ul class="pricing-list">
             <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
             </li>
             <div class="borderT"></div>
-            <li class="text-muted-bold">Apprenez à créer votre site web avec HTML et CSS
-            </li>
-            <div class="borderT"></div>
-            <li>
-                <p class="text-muted text-center">Débutez avec ce cours qui vous apprendra comment créer des sites web
-                    avec le HTML et le CSS</p>
+            <li class="text-muted-bold">Apprenez à programmer avec javascript
             </li>
         </ul>
-        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em" height="1.3em"></i>Commencez</a>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
     </div>
+    <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/java.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Apprenez à programmer avec java
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
+    </div>
+</div>
+<div class="containerT">
+    <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/python.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Apprenez à programmer avec python
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
+    </div>
+    <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/php-mysql.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Concevez vos sites web avec PHP & MYSQL
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
+    </div>
+    <div class="pricing-table table1">
+        <div class="pricing-header"
+            style="background: url('./img/formations/formations/java.jpg') 50% 50% no-repeat; height: 200px; width:100%; background-repeat: no-repeat; background-size: cover; background-position: center center; overflow: hidden;">
+        </div>
+        <ul class="pricing-list">
+            <li class="text-muted"><i class="fas fa-globe mr-sm-1"></i>Développement
+            </li>
+            <div class="borderT"></div>
+            <li class="text-muted-bold">Apprenez à programmer avec java
+            </li>
+        </ul>
+        <a href="{{ route('my_projects') }}"><i class="fas fa-eye mr-sm-1" width="1.3em"
+                height="1.3em"></i>Commencez</a>
+    </div>
+</div>
 </div>
 @endsection
